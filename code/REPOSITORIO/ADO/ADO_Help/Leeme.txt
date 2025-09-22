@@ -1,0 +1,49 @@
+Formulario de AYUDA que debe crearce mediante la funcion CREATE, esta tiene dos formas de crearce,
+ya que la funcion esta escria dos veces (isoformismo):
+1)_ Se debe pasar por parametro el Owner, el Sistema y la Conexion
+2)_ Se debe pasar por parametro el Owner, el Sistema, Numero de Proceso  y la Conexion 
+
+Ejemplo:
+
+procedure TFrmPrincial.AyudadeTransmision1Click(Sender: TObject);
+begin
+  try
+    FrmHelp:= TFrmAyuda.Create(Self, 'UMBRAL', 1, UMBRALConexion.ADOConec);
+    FrmHelp.Show;
+  finally
+    FrmHelp.Free;
+  end;
+end;
+
+procedure TFrmPrincial.AyudadeTransmision1Click(Sender: TObject);
+begin
+  try
+    FrmHelp:= TFrmAyuda.Create(Self, 'UMBRAL', UMBRALConexion.ADOConec);
+    FrmHelp.Show;
+  finally
+    FrmHelp.Free;
+  end;
+end;
+
+Este formulario esta preparado para trabajar con la conexion de ADO (ODBC) 
+Debe conectarse el Query con el componente AdoConnection.
+El Query Trabaja con una tabla de Oracle que se encuentra en el Owner
+"GIRE" y la tabla se llama "AYUDA".
+
+PROCESO: Para separar las ayudas entre distintos formularios.
+
+ORDEN: Este campo se utiliza como indice para ordenar.
+
+NIVEL0: Item principal, Raiz del arbol.
+
+NIVEL1: SubItem que se desprende del principal.
+
+NIVEL2: Ultimo item del arbol.
+
+LEYENDA: Descripcion que se leerá en el pie del formulario.
+
+ARCHIVO: Archivo de Tipo "RTF" que son los que tendarn la informacion. 
+         Se debe especificar la ruta donde se encuentra el archivo
+	 
+BMP: Archivo de Tipo "ICO o BMP" que son los que apareceran en el formulario.
+     Se debe especificar la ruta donde se encuentra el archivo

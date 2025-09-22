@@ -1,0 +1,1 @@
+svn cp  https://repo.gire.com/commons/repositorio/ado/rep_ado_conexion/trunk/ https://repo.gire.com/commons/repositorio/ado/rep_ado_conexion/releases/ADOConexion-11.1.10

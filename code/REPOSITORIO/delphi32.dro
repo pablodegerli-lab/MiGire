@@ -1,0 +1,898 @@
+[T:\DEVELOP\DELPHI5\REPOSITORIO\FORMS\UFRMGIREBASE]
+Type=FormTemplate
+Name=FrmGIREBase
+Page=GIRE - Forms
+Icon=
+Description=Formulario Base de Gire
+Author=Valeria Santoro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL]
+Type=FormTemplate
+Name=FrmGIREGral
+Page=GIRE - Forms
+Icon=
+Description=Formulario Base de Menu de Gire
+Author=Valeria Santoro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREBASE
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREDLG]
+Type=FormTemplate
+Name=FrmGIREDlg
+Page=GIRE - Forms
+Icon=
+Description=Formulario Base de Dialogo
+Author=Valeria Santoro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREBASE
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREMESANIO]
+Type=FormTemplate
+Name=FrmGIREMesAnio
+Page=GIRE - Forms
+Icon=
+Description=Solicita el ingreso de un período en le formato MES/ANIO
+Author=Ricardo Pavone
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREDLG
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMBUSQUEDA]
+Type=FormTemplate
+Name=FrmBusqueda
+Page=GIRE - Forms
+Icon=
+Description=Busqueda generica. Tiene una funcion que se le pasa el nombre del campo a devolver y el data set donde buscar. Retorna un variant
+Author=Alejandro Resen
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREDLG
+Designer=dfm
+
+[C:\REPOSITORIO\PROJECT1]
+Type=ProjectTemplate
+Name=ErrorClase
+Page=GIRE-BDE-Consulta
+Icon=
+Description=Errores de las Consulta
+Author=Fernando D'Allestro
+DefaultProject=0
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UDMABM]
+Type=FormTemplate
+Name=DMAbm
+Page=GIRE-ADO-ABM
+Icon=
+Description=DataModulo Base Oracle
+Author=Jorge Decanini
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UDMABMDBF]
+Type=FormTemplate
+Name=DMAbmDbf
+Page=GIRE-ADO-ABM
+Icon=
+Description=DataModule Base Oracle/DBF
+Author=Jorge Decanini
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UDMABM
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UDMABMDET]
+Type=FormTemplate
+Name=DMAbmDet
+Page=GIRE-ADO-ABM
+Icon=
+Description=DataModule Base Oracle/DBF
+Author=Jorge Decanini
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UDMABM
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UFRMGIREABMONLINE]
+Type=FormTemplate
+Name=FrmGIREAbmOnLine
+Page=GIRE-ADO-ABM
+Icon=
+Description=Forms Base para para ABM
+Author=Jorge Decanini
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UFRMGIREABMCABONLINE]
+Type=FormTemplate
+Name=FrmGIREAbmCabOnLine
+Page=GIRE-ADO-ABM
+Icon=
+Description=Form Base para ABM de una Tabla
+Author=Jorge Decanini
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UFRMGIREABMONLINE
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UFRMGIREABMCADETONLINE]
+Type=FormTemplate
+Name=FrmGIREAbmCaDetOnLine
+Page=GIRE-ADO-ABM
+Icon=
+Description=Form Base para ABM de una Tabla
+Author=Jorge Decanini
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UFRMGIREABMONLINE
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_ABM\UFRMGIREABMONLINECONSULTA]
+Type=FormTemplate
+Name=FrmGIREAbmOnLineConsulta
+Page=GIRE-ADO-ABM
+Icon=
+Description=Form Base Consulta para ABM
+Author=Jorge Decanini
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREBASE
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONEXION\UADOCONEXION]
+Type=FormTemplate
+Name=ADOConexion
+Page=GIRE-ADO-Conexion
+Icon=
+Description=DataModulo de Conexion para ADO
+Author=Oscar Rodriguez
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONEXION\UFRMGIRECAMBIOPASW]
+Type=FormTemplate
+Name=FrmGIRECambioPasw
+Page=GIRE-ADO-Conexion
+Icon=
+Description=Formulario de Cambio de Password para ADO
+Author=Oscar Rodriguez
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONEXION\UFRMGIRELOGIN]
+Type=FormTemplate
+Name=FrmGIRELogin
+Page=GIRE-ADO-Conexion
+Icon=
+Description=Ingreso a la Base de Datos para ADO
+Author=Oscar Rodriguez
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREDLG
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOCONSULTA]
+Type=FormTemplate
+Name=FrmADOConsulta
+Page=GIRE-ADO-Consulta
+Icon=
+Description=Muestra una Grilla pasandole un ADOQuery
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOCONSREPO]
+Type=FormTemplate
+Name=FrmADOConsRepo
+Page=GIRE-ADO-Consulta
+Icon=
+Description=Muestra una Consulta en una Grilla e Imprime
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOCONSULTA
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMPROC]
+Type=FormTemplate
+Name=FrmADOParamProc
+Page=GIRE-ADO-Consulta
+Icon=
+Description=Formulario base para Consultas y Procesos
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMREPO]
+Type=FormTemplate
+Name=FrmADOParamRepo
+Page=GIRE-ADO-Consulta
+Icon=
+Description=Formulario base de Consulta con Reporte y Listado
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMPROC
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMFECHA]
+Type=FormTemplate
+Name=FrmADOParamFecha
+Page=GIRE-ADO-Consulta
+Icon=
+Description=Formulario para Consulta con Rangos de Fechas
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMPROC
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMREPOBCOFECHA]
+Type=FormTemplate
+Name=FrmADOParamRepoBcoFecha
+Page=GIRE-ADO-Consulta
+Icon=
+Description=Formulario con Consulta por Banco, Rango de Fechas e Impresion
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMREPO
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMREPOCIERRES]
+Type=FormTemplate
+Name=FrmParamRepoCierres
+Page=GIRE-ADO-Consulta
+Icon=
+Description=Formulario de Consulta por Banco y Mes/Año para los Cierres
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMREPO
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMREPOBCO]
+Type=FormTemplate
+Name=FrmADOParamRepoBco
+Page=GIRE-ADO-Consulta
+Icon=
+Description=Formulario de Consulta por Banco e  Impresion
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_CONSULTA\UFRMADOPARAMREPO
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_VARIOS\UFRMABOUT]
+Type=FormTemplate
+Name=FrmAbout
+Page=GIRE-ADO-Varios
+Icon=
+Description=Formulario Base Acerca del Autor de la Aplicacion
+Author=Jorge Decanini
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_VARIOS\UDMGIREPATH]
+Type=FormTemplate
+Name=DMGirePath
+Page=GIRE-ADO-Varios
+Icon=
+Description=Tabla de Paths para DBF
+Author=Jorge Decanini
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONEXION\UGIRECONEXION]
+Type=FormTemplate
+Name=GireConexion
+Page=GIRE-BDE-Conexion
+Icon=
+Description=Clase Base para Conexiones con base de Datos para BDE
+Author=Oscar Rodriguez
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONEXION\UFRMGIRELOGINBDE]
+Type=FormTemplate
+Name=FrmGIRELoginBDE
+Page=GIRE-BDE-Conexion
+Icon=
+Description=Ingreso a la Base de Datos para BDE
+Author=Oscar Rodriguez
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREDLG
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONEXION\UFRMGIRECAMBIOPASWBDE]
+Type=FormTemplate
+Name=FrmGIRECambioPaswBDE
+Page=GIRE-BDE-Conexion
+Icon=
+Description=Cambio de Password para BDE
+Author=Oscar Rodriguez
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREENTIDAD]
+Type=FormTemplate
+Name=GireEntidad
+Page=GIRE-BDE-Varios
+Icon=
+Description=DataModulo Base de Entidades de Gire
+Author=Alejandro Resen
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREENTIDADES]
+Type=FormTemplate
+Name=GireEntidades
+Page=GIRE-BDE-Varios
+Icon=
+Description=DataModulo de Entidades
+Author=Equipo Winco
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREENTIDAD
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREMONEDAS]
+Type=FormTemplate
+Name=GireMonedas
+Page=GIRE-BDE-Varios
+Icon=
+Description=Monedas utilizadas en Gire
+Author=Alejandro Resen
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREENTIDAD
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREPATH]
+Type=FormTemplate
+Name=GirePath
+Page=GIRE-BDE-Varios
+Icon=
+Description=Manejo de Paths de Carpetas
+Author=V.Santoro - S.Barrasa
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREENTIDAD
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREEMPRESAS]
+Type=FormTemplate
+Name=GireEmpresas
+Page=GIRE-BDE-Varios
+Icon=
+Description=DataModulo de Empresas de Gire
+Author=Alejrandro Resen
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREENTIDAD
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIRETIPOCOBRANZAS]
+Type=FormTemplate
+Name=GireTipoCobranzas
+Page=GIRE-BDE-Varios
+Icon=
+Description=Tipo de Cobranzas Aceptadas por Gire
+Author=GIRE
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREENTIDAD
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREBANCOS]
+Type=FormTemplate
+Name=GireBancos
+Page=GIRE-BDE-Varios
+Icon=
+Description=Bancos de Gire
+Author=GIRE
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREENTIDAD
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIRECIAS]
+Type=FormTemplate
+Name=GireCias
+Page=GIRE-BDE-Varios
+Icon=
+Description=Modulo de Datos de Companias
+Author=Equipo Winco
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIREENTIDAD
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\VARIOS\UGIRECONSULTA]
+Type=FormTemplate
+Name=GireConsulta
+Page=GIRE-BDE-Varios
+Icon=
+Description=DataModule Base de Consultas Simples de GIRE
+Author=Equipo Winco
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIRECONSULTA]
+Type=FormTemplate
+Name=FrmGIREConsulta
+Page=GIRE-BDE-Consulta
+Icon=
+Description=Muestra una Grilla pasandole un Query
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIRECONSREPO]
+Type=FormTemplate
+Name=FrmGireConsRepo
+Page=GIRE-BDE-Consulta
+Icon=
+Description=Muestra una Consulta en una Grilla e Imprime
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIRECONSULTA
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMPROC]
+Type=FormTemplate
+Name=FrmGIREParamProc
+Page=GIRE-BDE-Consulta
+Icon=
+Description=Formulario Base para Consultas
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMREPO]
+Type=FormTemplate
+Name=FrmGIREParamRepo
+Page=GIRE-BDE-Consulta
+Icon=
+Description=Formulario Base para Consultas e Impresiones
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMPROC
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMREPOCIERRES]
+Type=FormTemplate
+Name=FrmGIREParamRepoCierres
+Page=GIRE-BDE-Consulta
+Icon=
+Description=Formulario de Consulta por Banco y Fecha de Cierre e Impresion
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMREPO
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMFECHA]
+Type=FormTemplate
+Name=FrmGIREParamFecha
+Page=GIRE-BDE-Consulta
+Icon=
+Description=Formulario para Consultas por Rango de Fechas
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMPROC
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMREPOBCO]
+Type=FormTemplate
+Name=FrmGIREParamRepoBco
+Page=GIRE-BDE-Consulta
+Icon=
+Description=Formulario de Consulta por Banco e Impresion
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMREPO
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMREPOBCOFECHA]
+Type=FormTemplate
+Name=FrmGIREParamRepoBcoFecha
+Page=GIRE-BDE-Consulta
+Icon=
+Description=Formulario de Consultas por Banco/Rango de Fechas e Impresion
+Author=Fernando D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\CONSULTA\UFRMGIREPARAMREPO
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\ABM\UFRMGIREABM]
+Type=FormTemplate
+Name=FrmGIREAbm
+Page=GIRE-BDE-ABM
+Icon=
+Description=Formulario Base para ABM
+Author=
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL
+Designer=dfm
+
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\ABM\UFRMGIREABMCAB]
+Type=FormTemplate
+Name=FrmGIREAbmCab
+Page=GIRE-BDE-ABM
+Icon=
+Description=Formulario Base para ABM de una Tabla
+Author=Alejandro Resen
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\ABM\UFRMGIREABM
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\ABM\UFRMGIRECABDET]
+Type=FormTemplate
+Name=FrmGIREAbmCabDet
+Page=GIRE-BDE-ABM
+Icon=
+Description=Formulario Base para ABM de Cabecera y Detalle de una Tabla
+Author=Alejandro Resen
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\DATABASE\ABM\UFRMGIREABMCAB
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\IMAGENES\UIMAGENES]
+Type=FormTemplate
+Name=Imagenes
+Page=GIRE - Imagenes
+Icon=
+Description=Contiene las Imagenes a Utilizar en los Sistemas
+Author=GIRE
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\ADO\ADO_HELP\UFRMAYUDA]
+Type=FormTemplate
+Name=FrmAyuda
+Page=GIRE-ADO-Ayuda
+Icon=
+Description=Formulario de Ayuda
+Author=F.Martino - F.D'Allestro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\REPORTES\UAUTOPARAMQUERYREPORT]
+Type=FormTemplate
+Name=FrmAutoParamQueryReport
+Page=GIRE - Reportes
+Icon=
+Description=Formulario de carga automatica de parametros para reportes
+Author=Valeria Santoro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\REPORTES\UREPOGIREBASE]
+Type=FormTemplate
+Name=RepoGIREBase
+Page=GIRE - Reportes
+Icon=
+Description=Reporte Base de GIRE
+Author=Valeria Santoro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\REPORTES\UREPOGIREBASELOGO]
+Type=FormTemplate
+Name=RepoGIREBaseLogo
+Page=GIRE - Reportes
+Icon=
+Description=Reporte Base de Gire con Logo
+Author=Valeria Santoro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\REPORTES\UREPOGIREBASE
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\REPORTES\UREPOGIREBASEEMPRESA]
+Type=FormTemplate
+Name=RepoGIREBaseEmpresa
+Page=GIRE - Reportes
+Icon=
+Description=Reporte Base de Gire con Logo y Empresa
+Author=Valeria Santoro
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\REPORTES\UREPOGIREBASELOGO
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DBEXPRESS\CONEXION\uDbExpressConexion]
+Type=FormTemplate
+Name=DbExpressConexion
+Page=GIRE-DbExpress-Conexion
+Icon=
+Description=DataModulo de Conexion para
+Author=Nito
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DBEXPRESS\CONEXION\UFRMGIRECAMBIOPASW]
+Type=FormTemplate
+Name=FrmGIRECambioPasw
+Page=GIRE-DbExpress-Conexion
+Icon=
+Description=Formulario de Cambio de Password para DbExpress
+Author=Nito
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREGRAL
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\DBEXPRESS\CONEXION\UFRMGIRELOGIN]
+Type=FormTemplate
+Name=FrmGIRELogin
+Page=GIRE-DbExpress-Conexion
+Icon=
+Description=Ingreso a la Base de Datos para DbExpress
+Author=Nito
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=T:\DEVELOP\DELPHI7\REPOSITORIO\FORMS\UFRMGIREDLG
+Designer=dfm
+
+
+[Borland.DataBaseFormTemplate]
+Type=FormExpert
+Page=Business
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=dfm
+
+[Borland.DlgExpertDemo]
+Type=FormExpert
+Page=Dialogs
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=dfm
+
+[Borland.DBWebAppExpertFormTemplate]
+Type=FormExpert
+Page=Business
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=dfm
+
+[Borland.AppExpertDemo]
+Type=ProjectExpert
+Page=Projects
+DefaultProject=0
+Designer=Any
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\CONEXION\CONEXIONADO]
+Type=ProjectTemplate
+Name=ConexionAdo
+Page=Prueba
+Icon=
+Description=Conexion
+Author=
+DefaultProject=0
+Designer=dfm
+
+[C:\VSS\ALICONSULTA\PROJECT1]
+Type=ProjectTemplate
+Name=ErrorClase
+Page=GIRE-ADO-Consulta
+Icon=
+Description=Clase de errore para la consulta
+Author=Fernando A. D'Allestro
+DefaultProject=0
+Designer=dfm
+
+[T:\DEVELOP\DELPHI7\REPOSITORIO\CONEXION\PROJECT1]
+Type=FormTemplate
+Name=WEB Base
+Page=GIRE-ADO-Varios
+Icon=
+Description=Modulo Base
+Author=Oscar Rodriguez
+DefaultMainForm=0
+DefaultNewForm=0
+Ancestor=
+Designer=dfm
+
+[Borland.WSDLWizard]
+Type=FormExpert
+Page=WebServices
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=Any
+
+[Borland.SOAPDMWizard]
+Type=FormExpert
+Page=WebServices
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=Any
+
+[Borland.SOAPInterfaceWizard]
+Type=FormExpert
+Page=WebServices
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=Any
+
+[Borland.NewWebSnapPageModule]
+Type=FormExpert
+Page=WebSnap
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=dfm
+
+[Borland.NewWebSnapDataModule]
+Type=FormExpert
+Page=WebSnap
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=dfm
+
+[Borland.New.HTMLDocument]
+Type=FormExpert
+Page=Web Documents
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=Any
+
+[Borland.New.XSLDocument]
+Type=FormExpert
+Page=Web Documents
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=Any
+
+[Borland.New.WMLDocument]
+Type=FormExpert
+Page=Web Documents
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=Any
+
+[Borland.New.XHTMLDocument]
+Type=FormExpert
+Page=Web Documents
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=Any
+
+[Steema.TeeChartWizard]
+Type=FormExpert
+Page=Business
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=dfm
+
+[QuSoft.QuickReportWizard]
+Type=FormExpert
+Page=Business
+DefaultMainForm=0
+DefaultNewForm=0
+Designer=dfm
+
+[Borland.NewSoapModule]
+Type=ProjectExpert
+Page=WebServices
+DefaultProject=0
+Designer=dfm
+
+[Borland.NewWebSnapApplication]
+Type=ProjectExpert
+Page=WebSnap
+DefaultProject=0
+Designer=Any
+
+[Atozed.IWApplicationWizard]
+Type=ProjectExpert
+Page=IntraWeb
+DefaultProject=0
+Designer=dfm
+
+[AtoZed.IWUnitWizard]
+Type=ProjectExpert
+Page=IntraWeb
+DefaultProject=0
+Designer=dfm
+
+[AtoZed.IWFrameWizard]
+Type=ProjectExpert
+Page=IntraWeb
+DefaultProject=0
+Designer=dfm
+
+[JVCL.JvBandObjectDLLWizard]
+Type=ProjectExpert
+Page=Wizards
+DefaultProject=0
+Designer=dfm
+
+[JVCL.JvPluginWizard]
+Type=ProjectExpert
+Page=Projects
+DefaultProject=0
+Designer=dfm
+
+[Repository Pages]
+GIRE - Forms=
+GIRE - Imagenes=
+GIRE - Reportes=
+GIRE-ADO-ABM=
+GIRE-BDE-ABM=
+GIRE-ADO-Conexion=
+GIRE-DbExpress-Conexion=
+GIRE-BDE-Conexion=
+GIRE-ADO-Consulta=
+GIRE-BDE-Consulta=
+GIRE-ADO-Varios=
+GIRE-BDE-Varios=
+GIRE-ADO-Ayuda=
+Business=
+Dialogs=
+Projects=
+Prueba=
+WebServices=
+WebSnap=
+Web Documents=
+IntraWeb=
+Wizards=
+
